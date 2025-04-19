@@ -11,30 +11,15 @@ public class ProductResponse {
     private int quantity;
     private String imageUrl;
     private String categoryName;
-    private Long Id;
-
-    public Long getCategoryId() {
-        return Id;
-    }
+    private Long categoryId;
+/*
 
     public void setCategoryId(Long categoryId) {
-        this.Id = Id;
-    }
-
-    public String getCategoryName() {
-        return categoryName;
+        this.categoryId = categoryId;
     }
 
     public void setCategoryName(String categoryName) {
         this.categoryName = categoryName;
-    }
-
-    public String getImageUrl() {
-        return imageUrl;
-    }
-
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
     }
 
     public Long getId() {
@@ -53,16 +38,8 @@ public class ProductResponse {
         this.name = name;
     }
 
-    public String getDescription() {
-        return description;
-    }
-
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public double getPrice() {
-        return price;
     }
 
     public void setPrice(double price) {
@@ -75,5 +52,5 @@ public class ProductResponse {
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
-    }
+    }*/
 }
